@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>cucumber-extent-generator</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<properties>
 		<project.reporting.outputEncoding>UTF-8
@@ -32,6 +32,7 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>${extent.version}</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

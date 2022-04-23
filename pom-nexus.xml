@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>cucumber-extent-generator</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<name>cucumber-extent-generator</name>
 	<url>https://ghchirp.tech/</url>
@@ -62,6 +62,7 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>${extent.version}</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

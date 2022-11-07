@@ -18,7 +18,8 @@ public class FeatureExtentTest {
 		ExtentTest featureExtentTest = extent.createTest(com.aventstack.extentreports.gherkin.model.Feature.class,
 				feature.getName(), feature.getDescription());
 
-		feature.getTags().forEach(t -> featureExtentTest.assignCategory(t.getName()));
+		// feature.getTags().forEach(t ->
+		// featureExtentTest.assignCategory(t.getName()));
 
 		Test test = featureExtentTest.getModel();
 		test.setStartTime(feature.getStartTime());

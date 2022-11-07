@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>cucumber-extent-generator</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 
 	<name>cucumber-extent-generator</name>
-	<url>https://ghchirp.tech/</url>
+	<url>https://ghchirp.online/</url>
 	<description>Generates Extent Test heirarchy from Cucumber JSON report
 	</description>
 
